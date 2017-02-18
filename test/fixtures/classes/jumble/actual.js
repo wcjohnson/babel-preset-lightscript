@@ -18,6 +18,7 @@ class X:
   decoratedMethod() => this.someProperty * 2
 
   render() ->
+    x = 5
 
     <div>
       hello world!
