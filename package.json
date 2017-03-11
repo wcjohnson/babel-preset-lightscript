@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-lightscript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Compile LightScript with ES7 features to ES6, with dynamic typechecks.",
   "main": "index.js",
   "scripts": {
