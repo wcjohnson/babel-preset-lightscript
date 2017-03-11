@@ -3,9 +3,6 @@ module.exports = {
   plugins: [
     require('babel-plugin-lightscript'),
 
-    // TODO: consider passing options, or coming up with a way for user to pass options
-    require('babel-plugin-tcomb').default,
-
     // es7, not yet on node7
     require('babel-plugin-syntax-trailing-function-commas'),
     require('babel-plugin-transform-es2015-modules-commonjs'),
