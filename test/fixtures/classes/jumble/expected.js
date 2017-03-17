@@ -5,7 +5,7 @@ var _class, _desc, _value, _class2;
 function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
   var desc = {};
   Object['ke' + 'ys'](descriptor).forEach(function (key) {
-    return desc[key] = descriptor[key];
+    desc[key] = descriptor[key];
   });
   desc.enumerable = !!desc.enumerable;
   desc.configurable = !!desc.configurable;
@@ -41,9 +41,9 @@ function methodDecorator(m) {
 
 let X = classDecorator(_class = (_class2 = class X {
   constructor() {
+    this.someProperty = 5;
     this.method = this.method.bind(this);
     this.decoratedMethod = this.decoratedMethod.bind(this);
-    this.someProperty = 5;
   }
 
   static someMethod() {
