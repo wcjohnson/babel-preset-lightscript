@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-lightscript",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Compile LightScript with ES7 features to ES6, with dynamic typechecks.",
   "main": "index.js",
   "scripts": {
@@ -16,12 +16,11 @@
     "babel-preset"
   ],
   "author": "Alex Rattray <rattray.alex@gmail.com> (http://alexrattray.com/)",
-  "homepage": "http://lightscript.org/",
+  "homepage": "https://github.com/lightscript/babel-preset-lightscript#readme",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lightscript/babel-preset-lightscript/issues"
   },
-  "homepage": "https://github.com/lightscript/babel-preset-lightscript#readme",
   "dependencies": {
     "babel-plugin-lightscript": "^0.2.2",
     "babel-plugin-syntax-async-functions": "^6.13.0",
