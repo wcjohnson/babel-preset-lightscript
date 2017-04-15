@@ -1,3 +1,4 @@
+import something from './y'
 
 classDecorator(klass) -> klass
 methodDecorator(m) -> m

@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-lightscript",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Compile LightScript with ES7 features to ES6, with dynamic typechecks.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/lightscript/babel-preset-lightscript/issues"
   },
   "dependencies": {
-    "babel-plugin-lightscript": "^0.4.2",
+    "babel-plugin-lightscript": "^0.5.1",
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
     "babel-plugin-transform-class-properties": "^6.22.0",
@@ -31,7 +31,8 @@
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.22.0",
     "babel-plugin-transform-react-display-name": "^6.22.0",
-    "babel-plugin-transform-react-jsx": "^6.22.0"
+    "babel-plugin-transform-react-jsx": "^6.22.0",
+    "babel-preset-env": "^1.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",

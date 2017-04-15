@@ -1,0 +1,3 @@
+{
+  "presets": [["lightscript", { "env": { "targets": { "node": 4 } } }]]
+}

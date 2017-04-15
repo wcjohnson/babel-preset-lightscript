@@ -2,6 +2,12 @@
 
 var _class, _desc, _value, _class2;
 
+var _y = require("./y");
+
+var _y2 = _interopRequireDefault(_y);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
   var desc = {};
   Object['ke' + 'ys'](descriptor).forEach(function (key) {
