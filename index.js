@@ -1,5 +1,7 @@
 /* global module */
-module.exports = (context, opts = {}) => {
+module.exports = function(context, opts) {
+  if(opts === undefined) opts = {};
+
   var lscOpts = opts.stdlib == null ? {} : { stdlib: opts.stdlib };
 
   return {
