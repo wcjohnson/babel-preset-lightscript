@@ -59,12 +59,9 @@ let X = classDecorator(_class = (_class2 = class X {
   method() {
     return this.someProperty;
   }
-
   decoratedMethod() {
     return this.someProperty * 2;
-  }
-
-  render() {
+  }render() {
     const x = 5;
 
     return React.createElement(
