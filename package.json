@@ -4,7 +4,7 @@
   "description": "Compile LightScript with ES7 features to ES6, with dynamic typechecks.",
   "main": "index.js",
   "scripts": {
-    "test": "node node_modules/.bin/mocha test",
+    "test": "mocha test",
     "preversion": "npm run test"
   },
   "repository": {
