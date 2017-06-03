@@ -208,11 +208,11 @@ babel-plugin-check-es2015-constants@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-lightscript@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/babel-plugin-lightscript/-/babel-plugin-lightscript-0.5.2.tgz#99c3bd0fd22f39b9f517957bc01a878662d68d17"
+babel-plugin-lightscript@^0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/babel-plugin-lightscript/-/babel-plugin-lightscript-0.5.6.tgz#eda5baea02032f5889c6ef693a9a8f5c4f83a1ec"
   dependencies:
-    babylon-lightscript "^0.5.2"
+    babylon-lightscript "^0.5.6"
 
 babel-plugin-syntax-async-functions@^6.13.0, babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
@@ -583,9 +583,9 @@ babel-types@^6.19.0, babel-types@^6.24.1:
     lodash "^4.2.0"
     to-fast-properties "^1.0.1"
 
-babylon-lightscript@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/babylon-lightscript/-/babylon-lightscript-0.5.2.tgz#a70b406f39b038976905259cda5a27ef1486c3bb"
+babylon-lightscript@^0.5.6:
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/babylon-lightscript/-/babylon-lightscript-0.5.6.tgz#e5aec2825984b0c3d0f7bfbcd071a6ebd9e405c4"
 
 babylon@^6.11.0, babylon@^6.15.0:
   version "6.17.1"
