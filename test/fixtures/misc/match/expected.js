@@ -1,15 +1,15 @@
 "use strict";
 
-if (x === a) b;else if (x === c) (function (d) {
+if (a) b;else if (c) (function (d) {
   return e;
-})(x);else if (x === f) {
+})(x);else if (f) {
   var _x = x,
       g = _x.g;
   h;
 }
-var i = x === a ? b : x === c ? function (d) {
+var i = a ? b : c ? function (d) {
   return e;
-}(x) : x === f ? function (_ref) {
+}(x) : f ? function (_ref) {
   var g = _ref.g;
   return h;
 }(x) : null;
