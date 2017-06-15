@@ -2,7 +2,8 @@
 module.exports = function(context, opts) {
   if(opts === undefined) opts = {};
 
-  var lscOpts = opts.stdlib == null ? {} : { stdlib: opts.stdlib };
+  var lscOpts = Object.assign({}, opts);
+  delete lscOpts.env;
 
   return {
     plugins: [
@@ -10,7 +11,7 @@ module.exports = function(context, opts) {
 
       // es7, not yet on node7
       require('babel-plugin-syntax-trailing-function-commas'),
-      require('babel-plugin-transform-es2015-modules-commonjs'),
+      require('babel-plugin-transform-es2015-modules-commonjs'), // in env...
       require('babel-plugin-syntax-async-functions'),
       require('babel-plugin-transform-class-properties'),
       require('babel-plugin-transform-object-rest-spread'),
