@@ -39,12 +39,9 @@ function _applyDecoratedDescriptor(target, property, decorators, descriptor, con
 
 function classDecorator(klass) {
   return klass;
-}
-
-function methodDecorator(m) {
+}function methodDecorator(m) {
   return m;
 }
-
 let X = classDecorator(_class = (_class2 = class X {
   constructor() {
     this.someProperty = 5;
