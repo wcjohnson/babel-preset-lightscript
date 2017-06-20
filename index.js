@@ -7,7 +7,7 @@ module.exports = function(context, opts) {
 
   return {
     plugins: [
-      [require('@oigroup/babel-plugin-lightscript'), lscOpts],
+      [require('@oigroup/babel-plugin-lightscript-self-host'), lscOpts],
 
       // es7, not yet on node7
       require('babel-plugin-syntax-trailing-function-commas'),

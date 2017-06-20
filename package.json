@@ -1,7 +1,7 @@
 {
-  "name": "@oigroup/babel-preset-lightscript",
-  "version": "2.0.0",
-  "description": "Compile LightScript with ES7 features to ES6.",
+  "name": "@oigroup/babel-preset-lightscript-self-host",
+  "version": "1.1.0",
+  "description": "Babel preset for LightScript self-hosting environments.",
   "main": "index.js",
   "scripts": {
     "test": "node node_modules/.bin/mocha test"
@@ -11,18 +11,16 @@
     "url": "git+https://github.com/wcjohnson/babel-preset-lightscript.git"
   },
   "keywords": [
-    "lightscript",
-    "babel",
-    "babel-preset"
+    "lightscript"
   ],
   "author": "Alex Rattray <rattray.alex@gmail.com> (http://alexrattray.com/)",
   "homepage": "https://github.com/wcjohnson/babel-preset-lightscript#readme",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wcjohnson/babel-preset-lightscript/issues"
+    "url": "https://github.com/wcjohnson/lightscript/issues"
   },
   "dependencies": {
-    "@oigroup/babel-plugin-lightscript": "2.0.0",
+    "@oigroup/babel-plugin-lightscript-self-host": "1.1.0",
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
     "babel-plugin-transform-class-properties": "^6.22.0",
