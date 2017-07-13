@@ -1,6 +1,6 @@
 "use strict";
 
-var _class, _desc, _value, _class2;
+var _class, _desc, _value, _class2, _class3, _temp;
 
 var _y = require("./y");
 
@@ -42,7 +42,7 @@ function classDecorator(klass) {
 }function methodDecorator(m) {
   return m;
 }
-let X = classDecorator(_class = (_class2 = class X {
+let X = classDecorator(_class = (_class2 = (_temp = _class3 = class X {
   constructor() {
     this.someProperty = 5;
     this.method = this.method.bind(this);
@@ -68,8 +68,6 @@ let X = classDecorator(_class = (_class2 = class X {
       React.createElement(X, { some: "prop" })
     );
   }
-}, (_applyDecoratedDescriptor(_class2.prototype, "decoratedMethod", [methodDecorator], Object.getOwnPropertyDescriptor(_class2.prototype, "decoratedMethod"), _class2.prototype)), _class2)) || _class;
-
-X.propTypes = {
+}, _class3.propTypes = {
   a: Number
-};
+}, _temp), (_applyDecoratedDescriptor(_class2.prototype, "decoratedMethod", [methodDecorator], Object.getOwnPropertyDescriptor(_class2.prototype, "decoratedMethod"), _class2.prototype)), _class2)) || _class;
