@@ -1,6 +1,6 @@
 {
   "name": "@oigroup/babel-preset-lightscript",
-  "version": "2.2.1",
+  "version": "2.3.0",
   "description": "Compile LightScript with ES7 features to ES6.",
   "main": "index.js",
   "scripts": {
