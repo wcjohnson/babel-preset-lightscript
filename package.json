@@ -1,6 +1,6 @@
 {
   "name": "@oigroup/babel-preset-lightscript-self-host",
-  "version": "3.0.0-pre.0",
+  "version": "3.0.0",
   "description": "Babel preset for LightScript self-hosting environments.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/wcjohnson/lightscript/issues"
   },
   "dependencies": {
-    "@oigroup/babel-plugin-lightscript-self-host": "3.0.0-pre.0",
+    "@oigroup/babel-plugin-lightscript-self-host": "3.0.0",
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
