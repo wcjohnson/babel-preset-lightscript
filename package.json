@@ -38,6 +38,7 @@
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-helper-plugin-test-runner": "^6.22.0",
+    "babel-plugin-istanbul": "^4.1.5",
     "mocha": "^3.2.0"
   }
 }

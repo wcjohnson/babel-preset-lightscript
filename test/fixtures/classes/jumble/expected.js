@@ -1,12 +1,4 @@
-"use strict";
-
 var _class, _desc, _value, _class2, _class3, _temp;
-
-var _y = require("./y");
-
-var _y2 = _interopRequireDefault(_y);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) {
   var desc = {};
@@ -36,6 +28,8 @@ function _applyDecoratedDescriptor(target, property, decorators, descriptor, con
 
   return desc;
 }
+
+import something from './y';
 
 function classDecorator(klass) {
   return klass;
