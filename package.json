@@ -16,11 +16,10 @@
     "babel",
     "babel-preset"
   ],
-  "author": "Alex Rattray <rattray.alex@gmail.com> (http://alexrattray.com/)",
   "homepage": "https://github.com/wcjohnson/babel-preset-lightscript#readme",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wcjohnson/babel-preset-lightscript/issues"
+    "url": "https://github.com/wcjohnson/lightscript/issues"
   },
   "dependencies": {
     "@oigroup/babel-plugin-lightscript": "3.0.0-beta.1",
