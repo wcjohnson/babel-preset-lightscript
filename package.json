@@ -1,6 +1,6 @@
 {
   "name": "@oigroup/babel-preset-lightscript",
-  "version": "3.0.0-beta.8",
+  "version": "3.0.0-beta.9",
   "description": "Compile LightScript with ES7 features to ES6.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/wcjohnson/lightscript/issues"
   },
   "dependencies": {
-    "@oigroup/babel-plugin-lightscript": "3.0.0-beta.8",
+    "@oigroup/babel-plugin-lightscript": "3.0.0-beta.9",
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
