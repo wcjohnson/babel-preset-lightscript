@@ -1,0 +1,8 @@
+{
+  "presets": [["lightscript", {
+    "env": false,
+    "additionalPlugins": [
+      ["babel-plugin-istanbul"]
+    ]
+  }]]
+}

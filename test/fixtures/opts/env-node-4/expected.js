@@ -27,7 +27,7 @@ try {
   }
 }
 
-var a = [].concat(_toConsumableArray(b));
+var a = [].concat(_toConsumableArray(b === void 0 ? [] : b));
 
 var X = function X() {
   _classCallCheck(this, X);

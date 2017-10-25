@@ -1,6 +1,6 @@
 {
   "name": "@oigroup/babel-preset-lightscript",
-  "version": "2.3.2",
+  "version": "3.0.0-beta.9",
   "description": "Compile LightScript with ES7 features to ES6.",
   "main": "index.js",
   "scripts": {
@@ -16,28 +16,27 @@
     "babel",
     "babel-preset"
   ],
-  "author": "Alex Rattray <rattray.alex@gmail.com> (http://alexrattray.com/)",
   "homepage": "https://github.com/wcjohnson/babel-preset-lightscript#readme",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wcjohnson/babel-preset-lightscript/issues"
+    "url": "https://github.com/wcjohnson/lightscript/issues"
   },
   "dependencies": {
-    "@oigroup/babel-plugin-lightscript": "2.3.2",
+    "@oigroup/babel-plugin-lightscript": "3.0.0-beta.9",
     "babel-plugin-syntax-async-functions": "^6.13.0",
     "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-display-name": "^6.25.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.2"
+    "babel-preset-env": "^1.6.0"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-helper-plugin-test-runner": "^6.22.0",
+    "babel-plugin-istanbul": "^4.1.5",
     "mocha": "^3.2.0"
   }
 }
