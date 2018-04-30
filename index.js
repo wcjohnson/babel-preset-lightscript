@@ -35,6 +35,7 @@ module.exports = function(context, opts) {
   var lscOpts = Object.assign({}, opts);
   delete lscOpts.env;
   delete lscOpts.disablePlugins;
+  delete lscOpts.additionalPlugins;
   plugins.unshift([require('@oigroup/babel-plugin-lightscript'), lscOpts])
 
   return {
